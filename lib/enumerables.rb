@@ -1,3 +1,5 @@
+# rubocop: disable Lint/Syntax
+
 module Enumerable
   # my_each
   def my_each
@@ -32,7 +34,7 @@ module Enumerable
     new_arr
   end
 
-  def my_all?(param = nil)
+  def my_all?(param == nil)
     if block_given?
       to_a.my_each { |item| return false if yield(item) == false }
       return true
@@ -49,7 +51,7 @@ module Enumerable
   end
 
   # my_any?
-  def my_any?(param = nil)
+  def my_any?(param == nil)
     if block_given?
       to_a.my_each { |item| return true if yield(item) }
       return false
@@ -66,7 +68,7 @@ module Enumerable
   end
 
   # my_none?
-  def my_none?(param = nil)
+  def my_none?(param == nil)
     if block_given?
       !my_any?(&Proc.new)
     else
@@ -117,4 +119,4 @@ end
 def multiply_els(array)
   array.my_inject(1) { |product, i| product * i }
 end
- 
+# rubocop: enable Lint/Syntax
