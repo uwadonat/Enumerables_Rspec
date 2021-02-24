@@ -93,10 +93,20 @@ describe '#my_count' do
   end
 end
 
+# testing multiply_els
+
+describe '#multiply_els' do
+  it 'Returns the multiplication of all elements in the array' do
+    expect(multiply_els([3, 5, 2])).to eql([3, 5, 2].inject { |x, y| x * y })
+  end
+
+# testing my_inject
+
 describe '#my_inject' do
   it 'return sum of all numbers' do
     expect([1, 5, 2].my_inject { |total, n| total + n } ).to eql(8)
   end
 end
 
+end
 end
