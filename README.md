@@ -1,52 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Enumerable-methods-ruby
+# Enumarables Rspec test
 
- This is Advanced Building Blocks project putting emphasis on the use of enumerable methods.
-
-![screenshot](Screenshot.png)
-
-Additional description about the project and its features.
+> This is the readMe for the Tic tac toe game Rspec test. 
 
 ## Built With
 
-- Ruby-enumerable methods
+- Ruby
+- Rspec
 
-## Live Demo
+## Test
+- in order to run test, you have to install rspec in your cmd run $gem install rspec
+- run test by cd into spec file and use the command   ```rspec testrspec.rb```   
+## Built With
 
-[Live Demo Link](https://uwadonat.github.io/Enumerables/)
+- Enumerables Methods
+- Rspec
+
+## Run Program
+
+- To get a local copy up and running the game follow these simple example steps:
+
+- Clone this repository with git clone ```https://github.com/uwadonat/Enumerables_Rspec/tree/Enumerables_Rspec``` using your terminal or command line.
+- run the command ```cd bin``` to Change the directory 
+- run the command ```ruby enumerables.rb``` and enjoy the game
+
 
 ## Authors
 
-- GitHub: [@Elyor](https://github.com/EL28DEV)
-- LinkedIn: [Elyor](https://www.linkedin.com/feed/)
-- Twitter: [@elyor-doniyorov](https://twitter.com/home?lang=ru)
+👤 **Author1**
 
-## Authors
+- GitHub: [@MandeIn](https://github.com/MandeIn)
+- Twitter: [@MandeIn](https://twitter.com/MandeIn)
+- LinkedIn: [MandeIn](https://linkedin.com/MandeIn)
 
-- GitHub: [@uwadonat](https://github.com/uwadonat)
-- LinkedIn: [Donat](www.linkedIn.com/in/uwamahoro-donat-84b5bb1b7/)
-- Twitter: [@uwamahoroDonat](https://twitter.com/uwamahoroDonat)
+👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/@uwadonat)
+- Twitter: [@twitterhandle](https://twitter.com/@uwamahoroDonat)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/uwamahoro-donat-84b5bb1b7/)
 
-## Getting Started
+## 🤝 Contributing
 
-To get a local copy of the repository please run the following commands on your terminal:
-
-$ cd <folder>
-$ git clone https://github.com/uwadonat/Enumerables.git
-
-Testing
-To test the code, run rspec from root of the folder using terminal.
-
-    Rspec is used for the test.
-
-$ gem install rspec
+Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-Give a ⭐️ if you like this project!!
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- StackOverflow
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
-
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
