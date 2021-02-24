@@ -1,5 +1,4 @@
 # test spec/test
-# rubocop: disable Lint/RedundantCopDisableDirective
 
 require_relative '../lib/enumerables'
 
@@ -32,7 +31,7 @@ describe Enumerable do
       expect([1, 3, 2, 8, 11, 15].my_select(&:odd?)).to eql([1, 3, 11, 15])
     end
   end
-  # rubocop:disable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
+
   # testing my_all?
   describe '#my_all?' do
     it 'return true if all numbers are greater than 0' do
@@ -88,8 +87,7 @@ describe Enumerable do
       expect(strings.my_count { |x| x.size > 2 }).to eql(2)
     end
   end
-  # rubocop:enable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
-  # rubocop: enable Lint/RedundantCopDisableDirective
+
   # testing multiply_els
   describe '#multiply_els' do
     it 'Returns the multiplication of all elements in the array' do
