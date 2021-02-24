@@ -36,11 +36,11 @@ describe Enumerable do
 
   describe '#my_all?' do
     it 'return true if all numbers are greater than 0' do
-      expect([1, 5, 2, 8, 11, 15].my_all? { |x| x > 0 }).to eql(true)
+      expect([1, 5, 2, 8, 11, 15].my_all?(&:positive?)).to eql(true)
     end
 
     it 'return false if at least one of numbers is not greater than 0' do
-      expect([1, -3, 2, 8, 11, 15].my_all? { |x| x > 0 }).to eql(false)
+      expect([1, -3, 2, 8, 11, 15].my_all?(&:positive?)).to eql(false)
     end
   end
 
@@ -48,11 +48,11 @@ describe Enumerable do
 
   describe '#my_none?' do
     it 'return false at least one numbers is greater than 0' do
-      expect([1, 5, 2, 8, 11, 15].my_any? { |x| x > 0 }).to eql(true)
+      expect([1, 5, 2, 8, 11, 15].my_any?(&:positive?)).to eql(true)
     end
 
     it 'return true if none of numbers is  greater than 15' do
-      expect([1, -3, 2, 8, 11, 15].my_all? { |x| x > 0 }).to eql(false)
+      expect([1, -3, 2, 8, 11, 15].my_all?(&:positive?)).to eql(false)
     end
   end
 
@@ -60,11 +60,11 @@ describe Enumerable do
 
   describe '#my_any?' do
     it 'return true at least one numbers is greater than 0' do
-      expect([1, 5, 2, 8, 11, 15].my_any? { |x| x > 0 }).to eql(true)
+      expect([1, 5, 2, 8, 11, 15].my_any?(&:positive?)).to eql(true)
     end
 
     it 'return false if none of numbers is  greater than 15' do
-      expect([1, -3, 2, 8, 11, 15].my_all? { |x| x > 0 }).to eql(false)
+      expect([1, -3, 2, 8, 11, 15].my_all?(&:positive?)).to eql(false)
     end
   end
 
