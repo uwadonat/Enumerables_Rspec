@@ -24,7 +24,7 @@ Additional description about the project and its features.
 
 - Clone this repository with git clone ```https://github.com/uwadonat/Enumerables_Rspec/tree/Enumerables_Rspec``` using your terminal or command line.
 - run the command ```cd bin``` to Change the directory 
-- run the command ```ruby enumerables.rb``` and enjoy the game
+- run the command ```ruby enumerables.rb``` and enjoy the methods
 
 
 ## Authors
