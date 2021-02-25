@@ -4,7 +4,7 @@
 
 > This is the readMe for the Tic tac toe game Rspec test. 
 
-![screenshot](https://github.com/Mandeln/Tic-Tac-Toe-Test/blob/test/image/screenshot.jpg)
+![screenshot](https://github.com/uwadonat/Enumerables_Rspec/blob/Enumerables_Rspec/images/screenshoot.JPG)
 
 Additional description about the project and its features.
 
