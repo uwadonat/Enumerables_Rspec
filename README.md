@@ -2,16 +2,16 @@
 
 # Enumarables RSpec test
 
-> This is the readMe for the Enumerables project RSpec test. 
+> This is the readMe for the Enumerable project RSpec test. 
 
 ![screenshot](https://github.com/uwadonat/Enumerables_Rspec/blob/Enumerables_Rspec/images/screenshoot.JPG)
 
 Good day world
 
-Lets welcome one more code in the line of many more to come during our time here at Microverse. -Matija Maksimovic
+Let us welcome one more code in the line of many more to come during our time here at Microverse. -Matija Maksimovic
 
 
-Additional description about the project and its features.
+Additional description of the project and its features.
 
 ## Built With
 
@@ -19,8 +19,8 @@ Additional description about the project and its features.
 - RSpec
 
 ## Test
-- in order to run test, you have to install rspec in your cmd run $gem install rspec
-- run test by cd into spec file and use the command   ```rspec testrspec.rb```   
+- to run the test, you have to install RSpec in your cmd run $gem install RSpec
+- run test by cd into spec file and use the command   ```rspec testr_spec.rb```   
 
 
 ## Run Program
@@ -51,7 +51,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give and ⭐️ if you like this project!
 
 ## Acknowledgments
 
