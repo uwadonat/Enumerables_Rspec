@@ -16,10 +16,7 @@ Additional description about the project and its features.
 ## Test
 - in order to run test, you have to install rspec in your cmd run $gem install rspec
 - run test by cd into spec file and use the command   ```rspec testrspec.rb```   
-## Built With
 
-- Enumerables Methods
-- RSpec
 
 ## Run Program
 
