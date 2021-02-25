@@ -63,7 +63,7 @@ describe Enumerable do
     end
 
     it 'return false if none of numbers is  greater than 15' do
-      expect([1, -3, 2, 8, 11, 15].my_all?(&:positive?)).to eql(false)
+      expect([1, -3, 2, 8, 11, 15].my_all?(&:positive?)).not_to eql(true)
     end
   end
 
