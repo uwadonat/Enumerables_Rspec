@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Enumarables Rspec test
+# Enumarables RSpec test
 
-> This is the readMe for the Tic tac toe game Rspec test. 
+> This is the readMe for the Enumerables project RSpec test. 
 
 ![screenshot](https://github.com/uwadonat/Enumerables_Rspec/blob/Enumerables_Rspec/images/screenshoot.JPG)
 
@@ -11,7 +11,7 @@ Additional description about the project and its features.
 ## Built With
 
 - Ruby
-- Rspec
+- RSpec
 
 ## Test
 - in order to run test, you have to install rspec in your cmd run $gem install rspec
@@ -19,7 +19,7 @@ Additional description about the project and its features.
 ## Built With
 
 - Enumerables Methods
-- Rspec
+- RSpec
 
 ## Run Program
 
