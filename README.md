@@ -6,6 +6,11 @@
 
 ![screenshot](https://github.com/uwadonat/Enumerables_Rspec/blob/Enumerables_Rspec/images/screenshoot.JPG)
 
+Good day world
+
+Lets welcome one more code in the line of many more to come during our time here at Microverse. -Matija Maksimovic
+
+
 Additional description about the project and its features.
 
 ## Built With
